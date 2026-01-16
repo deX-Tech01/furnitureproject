@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Final Project</title>
+    <link rel="stylesheet" href="index.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -13,25 +14,25 @@
     />
   </head>
   <body>
-    <div>
-      <nav>
+    <div class="background">
+      <nav class="nav-bar">
         <div><i class="fa-brands fa-square-pied-piper"></i>deX</div>
-        <div>
+        <div class="nav-bar2">
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Products</li>
-            <li>Collection</li>
-            <li>Contact</li>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Collection</a></li>
+            <li><a href="">Contact</a></li>
           </ul>
         </div>
-        <div>
+        <div class="nav-bar3">
           <i class="fa-brands fa-sistrix"></i>
-          <i class="fa-regular fa-house"></i>
-          <span>|<a href="">Login</a></span>
+          <a href="#"><i class="fa-regular fa-house"></i></a>
+          <span>|<a href=""> Login</a></span>
         </div>
       </nav>
-      <div>
+      <div class="transform">
         <h3>
           Transform Your Home With Furniture that Blends Design, Comfort and
           Purpose
@@ -43,27 +44,33 @@
         <button>Shop Now</button>
       </div>
     </div>
-    <div>
-      <h4>Featured Categories</h4>
-      <div>
-        <h4>Explore by the way you live</h4>
-        <p>
-          At deX we believe furniture should do more than fill a space, it
-          should elevate it. Our mission is to blend functional design with
-          timeless appeal, all at an honest price
-        </p>
-        <img src="./assets/Image22.jpg" />
+    <div class="Categories">
+      <h4 class="feat-cat">Featured Categories</h4>
+      <div class="explore">
+        <div class="explore2">
+          <h4>Explore by the way you live</h4>
+          <p>
+            At deX we believe furniture should do more than fill a space, it
+            should elevate it. Our mission is to blend functional design with
+            timeless appeal, all at an honest price
+          </p>
+        </div>
+        <div>
+          <img class="img2" src="./assets/Image22.jpg" />
+        </div>
       </div>
     </div>
-    <div>
+    <div class="new-collection">
       <h4>Our New Collections</h4>
-      <div>
+      <div class="park">
         <div>
           <button>Best Sale</button>
-          <div class="circle1"></div>
-          <div class="circle2"></div>
-          <div class="circle3"></div>
-          <div class="circle4"></div>
+          <div class="circle">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+            <div class="circle4"></div>
+          </div>
         </div>
         <div>
           <img src="./assets/PNG1.png" />
@@ -286,15 +293,19 @@
       </details>
       <details>
         <summary>How can I track my order status?</summary>
-        We provide you with a track number with which you can track your order on our app.
+        We provide you with a track number with which you can track your order
+        on our app.
       </details>
     </div>
     <div>
-        <div>
-            Build Your Home with a Comfortable Room By Using Our Interior.
-            <p>Looking for quality design furniture? Look no further, we are here for you!</p>
-        </div>
-        <button>Shop Now</button>
+      <div>
+        Build Your Home with a Comfortable Room By Using Our Interior.
+        <p>
+          Looking for quality design furniture? Look no further, we are here for
+          you!
+        </p>
+      </div>
+      <button>Shop Now</button>
     </div>
   </body>
 </html>
