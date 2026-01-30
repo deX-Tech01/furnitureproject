@@ -124,10 +124,6 @@ margin-right: 20px;
     display: flex;
     justify-content: space-between;
 }
-.image1 {
-
-}
-
 .image-container1 {
 max-width: 100%;
 height: auto;
@@ -136,4 +132,11 @@ height: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+}
+.details button{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: large;
+    border-radius: 50px;
+    border:none;
 }
