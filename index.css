@@ -63,8 +63,14 @@ text-align: center;
 }
 .park{
   background-color:rgb(178, 177, 177);
-  padding: 20px;
-  width: 33%;
+  height: 350px;
+  width: ;
+}
+.park img{
+    width: 350px;
+    height: 250px;
+  display: block;
+  margin: 0 auto; 
 }
 .circle1{
     background-color: blue;
@@ -91,22 +97,43 @@ text-align: center;
     border-radius: 50px;
 }
 .circle{
-position: absolute;
 position: relative;
-padding-right: 15px;
+padding-right: -5px;
+display: flex;
+margin-top: 20px;
+margin-right: 20px;
 } 
-/*.bib {
-  position: relative;
+.chair-name{
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.circle-div{
+    display: flex;
+    justify-content: space-between;
+}
+.circle-div button{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: large;
+    border-radius: 50px;
+    border:none;
+}
+.view-details{
+    display: flex;
+    justify-content: space-between;
+}
+.image1 {
 
 }
 
-.circle {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  position: absolute;
+.image-container1 {
+max-width: 100%;
+height: auto;
 }
-
-.c1 { left: 0; background: red; }
-.c2 { left: 20px; background: blue; }
-.c3 { left: 40px; background: green; }*/
+.blocks{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
